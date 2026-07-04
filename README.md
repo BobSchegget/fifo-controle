@@ -90,3 +90,33 @@ Open daarna:
 ```text
 http://localhost:8080/
 ```
+
+
+## Scorelogica bij Niet gevuld
+
+Voor de Excel/Forms-waarde telt **Niet gevuld** niet mee in de noemer.
+
+Voorbeeld:
+- 4 producten gekozen
+- 3 op Goed
+- 1 op Niet gevuld
+
+Dan wordt de afdelingswaarde:
+
+```text
+3/3 (nasa1,nasa2,nasa3)
+```
+
+Dus je kunt nog steeds een perfecte score halen als een product niet gevuld was.
+
+Als een afdeling producten met status Fout of Open heeft, telt die wel mee in de noemer.
+Bijvoorbeeld:
+- 2 Goed
+- 1 Fout
+- 1 Niet gevuld
+
+Dan wordt het:
+
+```text
+2/3 (...)
+```

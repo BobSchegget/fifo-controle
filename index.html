@@ -415,9 +415,10 @@ function buildSummary(record){
 }
 function buildDepartmentText(record, afdeling){
   const items = record.Producten.filter(p => p.Afdeling === afdeling);
-  const correct = items.filter(p => p.Status === 'Goed');
+  const meetellend = items.filter(p => p.Status !== 'Niet gevuld');
+  const correct = meetellend.filter(p => p.Status === 'Goed');
   const nasas = correct.map(p => p.Nasa).join(',');
-  return `${correct.length}/${items.length} (${nasas})`;
+  return `${correct.length}/${meetellend.length} (${nasas})`;
 }
 function departmentCounts(record, afdeling){
   const items = record.Producten.filter(p => p.Afdeling === afdeling);
