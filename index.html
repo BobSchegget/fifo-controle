@@ -123,18 +123,46 @@ const subCounts = [
   {subafdeling:'Sappen', afdeling:'Maaltijden/Sappen', count:1},
   {subafdeling:'Panklaar', afdeling:'Panklaar', count:3}
 ];
-const embeddedProductsCsv = "Nasa;Productnaam;Afdeling;Subafdeling;Actief\n106375;ah bio halfv melk 1 lt;Zuivel;Zuivel;Ja\n842195;ah bio halfv melk 1.5 lt;Zuivel;Zuivel;Ja\n512652;ah bio mag yogh 1 lt;Zuivel;Zuivel;Ja\n582138;ah bio yogh gr 10% 1 kg;Zuivel;Zuivel;Ja\n30360;ah bio yogh griekse st 2% 1 kg;Zuivel;Zuivel;Ja\n575360;ah halfv melk calci 1 lt;Zuivel;Zuivel;Ja\n27506;ah halfvolle melk 500 ml;Zuivel;Zuivel;Ja\n11945;ah magere melk 0% 1 lt;Zuivel;Zuivel;Ja\n815633;camp magere yoghurt 1000 ml;Zuivel;Zuivel;Ja\n582127;dzh magere kwark 50 500 gr;Zuivel;Zuivel;Ja\n809358;dzh yogh gr 10% 1 kg;Zuivel;Zuivel;Ja\n853187;dzh yogh gr 2% 1 kg;Zuivel;Zuivel;Ja\n28392;ah bio hv yoghurt 1 lt;Zuivel;Zuivel;Ja\n106374;ah bio volle melk 1 lt;Zuivel;Zuivel;Ja\n27504;ah halfv van yogh 1 lt;Zuivel;Zuivel;Ja\n823326;ah magere kwark 1 kg;Zuivel;Zuivel;Ja\n590142;ah volle kwark 500 gr;Zuivel;Zuivel;Ja\n27507;ah volle melk 500 ml;Zuivel;Zuivel;Ja\n702102;ah vrij van lactose kwark 500 gr;Zuivel;Zuivel;Ja\n856024;ah yoghurt griekse stijl 600 gr;Zuivel;Zuivel;Ja\n805084;camp grieks st yogh 1 kg;Zuivel;Zuivel;Ja\n804258;camp halfvolle melk 2400 ml;Zuivel;Zuivel;Ja\n831576;camp halfvolle yoghurt 1 lt;Zuivel;Zuivel;Ja\n845354;camp milde kwark vanille 500 gr;Zuivel;Zuivel;Ja\n28423;campina milde mag kwark 1 kg;Zuivel;Zuivel;Ja\n37889;dairly cottage cheese 20+ 200 gr;Zuivel;Zuivel;Ja\n570675;dzh halfvolle melk 1 lt;Zuivel;Zuivel;Ja\n11956;dzh vanille vla 1 lt;Zuivel;Zuivel;Ja\n581894;dzh volle kwark 500 500 gr;Zuivel;Zuivel;Ja\n600587;dzh volle melk 1 lt;Zuivel;Zuivel;Ja\n11406;dzh yogh gr 2% van 1 kg;Zuivel;Zuivel;Ja\n691592;pur natur yoghurt bio 1 kg;Zuivel;Zuivel;Ja\n47966;ah goudse jb 30+ pl vvp 1 kg;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n715084;ah it buffel mozzarella 260 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n848774;ah mozzarella 200 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n699601;ah mozzarella tomaat s 210 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n67362;ah orzo witte kaas m 270 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n22546;ah oude kaas l 400 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n826095;ah peulvr geitenkaas s 215 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n623520;ah tomaat mozzarella l 450 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n830900;garlan roomkaas kruid 150 gr;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n689963;sg rosbief 1 kg;Kaas/Vleeswaren;Kaas/Vleeswaren;Ja\n611524;ah bio zalm op huid 175gr 1 kg;Vlees/Vis/Kip/Vega;Vis;Ja\n32917;ah geelvintonijn 1 kg;Vlees/Vis/Kip/Vega;Vis;Ja\n595406;ah grote garnalen l 450 gr;Vlees/Vis/Kip/Vega;Vis;Ja\n686936;ah sushi cali 219 gr;Vlees/Vis/Kip/Vega;Vis;Ja\n792694;ah tonijn m 235 gr;Vlees/Vis/Kip/Vega;Vis;Ja\n739693;ah zalm op huid 1 st 1 kg;Vlees/Vis/Kip/Vega;Vis;Ja\n47231;ah bio hamburger 4st 400 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n62822;ah bio rundergehaktball 12 st;Vlees/Vis/Kip/Vega;Vlees;Ja\n527528;ah grf kogelbiefstuk 1 kg;Vlees/Vis/Kip/Vega;Vlees;Ja\n646774;ah rundertartaar 4 stuks 4 st;Vlees/Vis/Kip/Vega;Vlees;Ja\n787893;ah varken braadw italiaan 6 st;Vlees/Vis/Kip/Vega;Vlees;Ja\n14067;ah bio filet americain 130 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n60848;ah bio hoh gehakt 300 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n60718;ah bio mager rundergehakt 300 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n847859;ah grf rundergehakt 500gr 500 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n646771;ah runder hamburger 200 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n807535;ah runder reepjes naturel 350 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n780699;ah rundervink 2st 200 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n792575;ah varken braadw catalaan 270 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n781314;ah varken schnitz gepan 300 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n787573;ah varkens boomstammetjes 400 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n833964;ah varkens wien schnitzel 1 kg;Vlees/Vis/Kip/Vega;Vlees;Ja\n594029;sg filet americain 140 gr;Vlees/Vis/Kip/Vega;Vlees;Ja\n68665;ah bbq sch kipsa sp 1 kg;Vlees/Vis/Kip/Vega;Kip;Ja\n561882;ah bio kipdijfilet 320gr 1 kg;Vlees/Vis/Kip/Vega;Kip;Ja\n517712;ah bio kipfilet 2 st 1 kg;Vlees/Vis/Kip/Vega;Kip;Ja\n843852;ah franse kipfilethaasjes 1 kg;Vlees/Vis/Kip/Vega;Kip;Ja\n72545;ah kip korma vp 2p 1 st;Vlees/Vis/Kip/Vega;Kip;Ja\n616775;ah oven sch kip gr pesto 1 kg;Vlees/Vis/Kip/Vega;Kip;Ja\n805051;ah sch kip roerbak 500gr 500 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n804301;ah sch kip shoa 650gr 650 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n35045;ah sch kipfilethaasjes 200 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n731212;ah sch kipflakes keb 225 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n701237;ah sch kipgehakt 300 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n35044;ah sch kipgehakt kvp 175 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n805259;ah sch kipkaaschnitzl 2st 200 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n731215;ah sch kipreepjes 1 kg;Vlees/Vis/Kip/Vega;Kip;Ja\n803213;ah sch krok kipsch 4st 500 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n820010;ah stm kip rozemarijn 450 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n63154;sch gebr kipfil italiaans 150 gr;Vlees/Vis/Kip/Vega;Kip;Ja\n91929;beyond burger 226 gr;Vlees/Vis/Kip/Vega;Vega;Ja\n14135;ah terra pl rk tofu 200 gr;Vlees/Vis/Kip/Vega;Vega;Ja\n83455;ah vega kaasschnitzel 200 gr;Vlees/Vis/Kip/Vega;Vega;Ja\n1211;vivera crisp chick burger 200 gr;Vlees/Vis/Kip/Vega;Vega;Ja\n69493;vivera veg gouda schnitzl 180 gr;Vlees/Vis/Kip/Vega;Vega;Ja\n2474;ah terra pl tofureep azia 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n9767;ah terra plant partydip 193 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n48318;ah vega kaasbite 185 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n69476;beyond korean bbq burger 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n75090;beyond meat bratwurst 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n707247;kips vega paté 125 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n32438;vega sl let it beef 160 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n848145;vega sl rul gehackt 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n32443;vivera gerookte tofu 280 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n48328;vivera kaasschnitzel vp 300 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n48330;vivera nuggets kaas 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n9685;vivera plant kruim gehakt 375 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n819570;vivera plant shoarma 175 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n718592;vivera plant spekjes 175 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n32439;vivera stevige tofu 280 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n32440;vivera zachte tofu 550 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n48325;ah terra bio tofu 500 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n32423;ah terra crispy tofu 160 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n848134;ah terra plant bal 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n55112;ah terra plant kruidenb 100 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n32427;ah terra tofu burger spin 160 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n48317;ah vega kaasschn onion 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n533380;ah vega kaasschntzl chili 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n35597;beyond jalapeno burger 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n26304;blue b plant kookr 250 ml;Vlees/Vis/Kip/Vega;Vega;Nee\n63776;paturain plant based 140 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n707032;valess crispy sticks 160 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n748613;valess sate schnitzel 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n727778;vega sl aufwiederschnitze 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n836321;vega sl bratwurst 160 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n9686;vega sl cordon blij 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n78813;viv plant kipstukjes gvp 300 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n682003;vivera krok schnitzel 400 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n848146;vivera krokante schnitzel 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n48329;vivera nuggets southern 180 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n68568;vivera pl doner kebab 160 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n1212;vivera pl shoarma vp 300 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n819573;vivera plant kipstukjes 175 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n748559;vivera plantaardig gehakt 200 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n14140;vivera plantaardige gyros 300 gr;Vlees/Vis/Kip/Vega;Vega;Nee\n46158;ah couscous hummus s 200 gr;Maaltijden/Sappen;Maaltijden;Ja\n787489;ah gesn versp nasi 1 st;Maaltijden/Sappen;Maaltijden;Ja\n595301;ah kip caesar l 450 gr;Maaltijden/Sappen;Maaltijden;Ja\n39246;ah kip parelcouscous l 450 gr;Maaltijden/Sappen;Maaltijden;Ja\n749686;ah macaroni spag groente 450 gr;Maaltijden/Sappen;Maaltijden;Ja\n16031;ah pasta kip avocado m 350 gr;Maaltijden/Sappen;Maaltijden;Ja\n1502;ah pasta kip kebab m 350 gr;Maaltijden/Sappen;Maaltijden;Ja\n832131;ah pasta pesto m 350 gr;Maaltijden/Sappen;Maaltijden;Ja\n832128;ah pasta tonijn m 350 gr;Maaltijden/Sappen;Maaltijden;Ja\n742258;ah pizza bianca 408 gr;Maaltijden/Sappen;Maaltijden;Ja\n582907;ah pizza funghi 405 gr;Maaltijden/Sappen;Maaltijden;Ja\n728827;ah pizza meatlovers 485 gr;Maaltijden/Sappen;Maaltijden;Ja\n742264;ah pizza salami pic 415 gr;Maaltijden/Sappen;Maaltijden;Ja\n888863;ah sushiwrap zalm 1 st;Maaltijden/Sappen;Maaltijden;Ja\n43839;ah v pizza moz pesto 445 gr;Maaltijden/Sappen;Maaltijden;Ja\n830740;ah varkens nasi/bami 1 kg;Maaltijden/Sappen;Maaltijden;Ja\n46308;ah vers maaltijd roti kip 450 gr;Maaltijden/Sappen;Maaltijden;Ja\n744786;ah vers soep oosterse kip 500 gr;Maaltijden/Sappen;Maaltijden;Ja\n570234;ah vers soep tomaat 500 gr;Maaltijden/Sappen;Maaltijden;Ja\n807454;ah wrap caesar kip bacon 2 st;Maaltijden/Sappen;Maaltijden;Ja\n574595;ah wrap gerookte zalm 2 st;Maaltijden/Sappen;Maaltijden;Ja\n520310;ah sap sinaasappel 1000 ml;Maaltijden/Sappen;Sappen;Ja\n501090;ah sap sinaasappel 500 ml;Maaltijden/Sappen;Sappen;Ja\n15939;ah sm appel aardbei 250 ml;Maaltijden/Sappen;Sappen;Ja\n733037;ah sm mango ananas 250 ml;Maaltijden/Sappen;Sappen;Ja\n733038;ah sm sinaas mango 250 ml;Maaltijden/Sappen;Sappen;Ja\n12761;ah terra sm ananas 250 ml;Maaltijden/Sappen;Sappen;Ja\n12762;ah terra sm appel 250 ml;Maaltijden/Sappen;Sappen;Ja\n817372;ah bloemkoolroosje kvp 200 gr;Panklaar;Panklaar;Ja\n847352;ah bloemkoolroosjes 400 gr;Panklaar;Panklaar;Ja\n46987;ah ijsbergsla melange 100 gr;Panklaar;Panklaar;Ja\n46102;ah ijsbergsla melange 200 gr;Panklaar;Panklaar;Ja\n14346;ah koolmix 150 gr;Panklaar;Panklaar;Ja\n510567;ah peen julienne 150 gr;Panklaar;Panklaar;Ja\n91080;ah rbak hollandse groente 400 gr;Panklaar;Panklaar;Ja\n781270;ah rbak mexic groente 400 gr;Panklaar;Panklaar;Ja\n502940;ah rbak provenc groente 400 gr;Panklaar;Panklaar;Ja\n847346;ah spinazie kvp 200 gr;Panklaar;Panklaar;Ja\n";
-let products = parseProductsCsv(embeddedProductsCsv);
+let products = [];
+let productsVersion = 'no-products';
+let productsCsvLoaded = false;
 async function loadProductsCsv(){
   try{
     const res = await fetch('products.csv?v=' + Date.now(), {cache:'no-store'});
-    if(!res.ok) throw new Error('products.csv niet gevonden');
+    if(!res.ok) throw new Error('products.csv niet gevonden of niet bereikbaar');
     const text = await res.text();
     const parsed = parseProductsCsv(text);
-    if(parsed.length) products = parsed;
+    if(!parsed.length) throw new Error('products.csv bevat geen geldige productregels');
+    products = parsed;
+    productsVersion = simpleHash(text);
+    productsCsvLoaded = true;
+    return true;
   }catch(e){
-    console.warn('products.csv niet geladen; ingebouwde productlijst wordt gebruikt:', e.message || e);
+    products = [];
+    productsCsvLoaded = false;
+    showProductsCsvError(e && e.message ? e.message : String(e));
+    return false;
   }
+}
+function showProductsCsvError(message){
+  document.getElementById('progressText').textContent = '0/0';
+  document.getElementById('progressBar').style.width = '0%';
+  document.getElementById('stats').innerHTML = '';
+  document.getElementById('content').innerHTML = `<section class="fifo-card fifo-error">
+    <strong>products.csv kon niet worden gelezen.</strong>
+    <p>De app gebruikt geen ingebouwde fallback meer. Daardoor zie je deze fout meteen als GitHub Pages of je browser het CSV-bestand niet goed kan laden.</p>
+    <p><strong>Fout:</strong> ${esc(message)}</p>
+    <p>Controleer of <code>products.csv</code> in dezelfde map/root staat als <code>index.html</code>, of test lokaal via <code>python3 -m http.server 8080</code> en niet via dubbelklikken op index.html.</p>
+  </section>`;
+}
+function simpleHash(text){
+  let h = 2166136261;
+  text = String(text || '');
+  for(let i=0;i<text.length;i++){
+    h ^= text.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0).toString(36);
 }
 function parseProductsCsv(text){
   const lines = String(text || '').split(/\r?\n/).filter(l=>l.trim());
@@ -177,16 +205,24 @@ function todayKey(){
   return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
 }
 function pad(n){return n<10?'0'+n:String(n)}
+function selectionStorageKey(dayKey){
+  return 'fifo_controle_productie_v9_selection_' + productsVersion + '_' + dayKey;
+}
 function loadDay(dayKey){
+  if(!productsCsvLoaded){
+    showProductsCsvError('products.csv is nog niet geladen.');
+    return;
+  }
   selectionWarnings = [];
-  const saved = localStorage.getItem('fifo_controle_productie_v8_selection_'+dayKey);
+  const key = selectionStorageKey(dayKey);
+  const saved = localStorage.getItem(key);
   if(saved){
     selection = JSON.parse(saved);
     validateCurrentPools();
   }
   else {
     selection = generateSelection(dayKey);
-    localStorage.setItem('fifo_controle_productie_v8_selection_'+dayKey, JSON.stringify(selection));
+    localStorage.setItem(key, JSON.stringify(selection));
   }
   render();
 }
@@ -266,7 +302,7 @@ function renderCard(item){
   </article>`;
 }
 function saveSelection(){
-  localStorage.setItem('fifo_controle_productie_v8_selection_'+document.getElementById('dateInput').value, JSON.stringify(selection));
+  localStorage.setItem(selectionStorageKey(document.getElementById('dateInput').value), JSON.stringify(selection));
 }
 function handleClick(e){
   const btn = e.currentTarget, card = btn.closest('.fifo-product-card'), id = Number(card.dataset.id), action = btn.dataset.action;
@@ -542,8 +578,8 @@ document.querySelectorAll('.formsLogBtn').forEach(btn => btn.addEventListener('c
 document.getElementById('continueFormsBtn').addEventListener('click', continueToForms);
 document.getElementById('backToControlBtn').addEventListener('click', backToControl);
 (async function initApp(){
-  await loadProductsCsv();
-  loadDay(document.getElementById('dateInput').value);
+  const ok = await loadProductsCsv();
+  if(ok) loadDay(document.getElementById('dateInput').value);
 })();
 </script>
 </body>
